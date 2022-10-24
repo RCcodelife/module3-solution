@@ -1,0 +1,31 @@
+body {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 185, 127);
+    height: 1000px;
+    font-family: 'oxygen',sans-serif;
+}
+a {
+    text-decoration: none;
+    color: purple;;
+}
+a:hover {
+    text-decoration: none;
+    color: orange;
+}
+/* HEADER */
+#header-nav {
+    background-color: #fff;
+    background-repeat: 0;
+    border-top: 0;
+    }
+
+/* MAIN */
+main>div>.row>div {
+    text-align: center;
+    background-color: grey;
+    margin: 5px;
+    border-radius: 2px;
+    border: 1px solid green;
+    float: left;
+}
