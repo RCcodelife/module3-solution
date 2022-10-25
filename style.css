@@ -29,3 +29,8 @@ main>div>.row>div {
     border: 1px solid green;
     float: left;
 }
+/* for media */
+@media (min-width:768px){
+    .navbar-toggler {
+        display:none;}
+}
