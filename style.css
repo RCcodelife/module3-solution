@@ -30,7 +30,7 @@ main>div>.row>div {
     float: left;
 }
 /* for media */
-@media (min-width:768px){
+@media (max-width:768px){
     .navbar-toggler {
         display:none;}
 }
